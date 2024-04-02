@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Picker from "emoji-picker-react";
 
 export default function Home() {
   return (
@@ -17,7 +18,18 @@ export default function Home() {
         </div>
         <div className="experience">
           <h3>Experiências</h3>
-          <p>texto</p>
+          <p>
+            Durante quase 2 anos, atuei como desenvolvedora ServiceNow na
+            renomada empresa Globo Comunicações. Minhas responsabilidades
+            incluíam o desenvolvimento de catálogos de serviços, fluxos de
+            trabalho, notificações, scripts e outras soluções para otimizar
+            processos internos. Desenvolvia de soluções de front-end utilizando
+            TypeScript e Angular, focando em código limpo e eficiente. Criação
+            de protótipos interativos no Figma, com ênfase em proporcionar uma
+            experiência do usuário intuitiva e agradável. Atualmente, estou
+            atuando como desenvolvedora Full Stack, com foco principal em
+            projetos utilizando React.
+          </p>
           <div className="experience-time"></div>
         </div>
         <div className="infos">
@@ -28,9 +40,15 @@ export default function Home() {
           </div>
           <h3>Escolaridade</h3>
           <div className="educational-info">
-            <span></span>
+            <span>🎓</span>
+            <span>
+              Analise em Desenvolvimento de Sistemas - Faculdade Estácio de Sá
+            </span>
           </div>
-          <span></span>
+        </div>
+        <div className="buttons">
+          <div className="social"></div>
+          <button>Contatar-me</button>
         </div>
       </div>
     </main>
