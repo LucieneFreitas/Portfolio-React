@@ -1,21 +1,12 @@
-import Image from "next/image";
-import Picker from "emoji-picker-react";
+import { Header } from './componets/header/Header'
+import '../styles/home.scss'
+
 
 export default function Home() {
   return (
-    <main>
-      <div className="header">
-        <Image
-          src="/vercel.svg"
-          alt="Vercel Logo"
-          width={100}
-          height={24}
-          priority
-        />
-        <div>
-          <h1>Olá, Sou Luciene Freitas</h1>
-          <h2>Desenvolvedora Front-end</h2>
-        </div>
+    <main  className="container">
+      <Header/>
+          
         <div className="experience">
           <h3>Experiências</h3>
           <p>
@@ -50,7 +41,7 @@ export default function Home() {
           <div className="social"></div>
           <button>Contatar-me</button>
         </div>
-      </div>
+      
     </main>
   );
 }
