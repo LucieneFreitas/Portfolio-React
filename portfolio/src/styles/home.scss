@@ -1,12 +1,9 @@
 .container {
-  .container {
     padding: 40px 32px;
     display: grid;
     gap: 24px;
     justify-items: center;
-    grid-template-rows: repeat(4, auto);/*4 pq tem 4 section - Header, botões, experiencia e info*/
-
-    /*especificando cada elementos que irão ocupar*/
+    grid-template-rows: repeat(4, auto);
     grid-template-areas: 
     "header"
     "btns"
@@ -58,5 +55,4 @@
         "header info"
         "experience btns";
     }
-}
 }
